@@ -8,5 +8,5 @@ Este repositorio contiene el código fuente del proyecto frontend desarrollado c
 - HTML5 y CSS3
 
 🌐 Explora el código para conocer más sobre la implementación y diseño.
+ Desarrollador: Jose Jacob Rodriguez Luis
 
-# Desarrollador: [Tu Nombre]
