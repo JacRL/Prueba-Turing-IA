@@ -1,26 +1,35 @@
+<!-- views/App.vue -->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <AppHeader />
+    <AppCarrusel />
+    <AppContent />
+    <AppSection4 />
+    <AppFooter />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppHeader from '@/components/AppHeader.vue';
+import AppCarrusel from '@/components/AppCarrusel.vue';
+import AppContent from '@/components/AppContent.vue';
+import AppSection4 from '@/components/AppSection4.vue';
+import AppFooter from '@/components/AppFooter.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    AppHeader,
+    AppCarrusel,
+    AppContent,
+    AppSection4,
+    AppFooter,
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+/* Puedes agregar estilos adicionales aquí según sea necesario */
+body {
+  padding-top: 56px; /* Ajusta según la altura de tu barra de navegación */
 }
 </style>
